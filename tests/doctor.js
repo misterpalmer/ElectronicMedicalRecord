@@ -4,17 +4,30 @@ const { expect } = require("chai");
 const { ethers } = require("hardhat");
 
 
-describe("Doctor", function() {
-    async function createNewDoctor() {
-        const [lastName, firstName] = await ethers.getSigners();
-        const Doctor = await ethers.getContractFactory("Doctor");
-        const littled = await Doctor.deploy();
+describe("Electronic Medical Records", function() {
+    
+    let doctor;
+    let age;
+    let qualifications;
 
-        return { littled, lastName, firstName};
-    }
+    before(async () => {
+        [name, age] = await ethers.getSigners();
+        const Doctor = await ethers.getContractFactory("EHR");
+        doctor = await Doctor.deploy();
+    });
 
-    async function deployDoctorWith()
-    {
-        
-    }
+
+    describe("Doctor", () => {
+        it("Should be able to register as a doctor", async () => {
+            await doctor.registerNewDoctor(name, age, qualifications);
+            await expect(doctor.doctorCount()).to.equal(1);
+        });
+    })
+
+    describe("Patient", () => {
+        it("Should be able to register as a patient", async () => {
+            await doctor.registerNewDoctor(name, age, qualifications);
+            expect(await doctor.doctorCount()).to.equal(1);
+        });
+    })
 })
