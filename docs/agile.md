@@ -6,52 +6,6 @@ At the end of the sprint, the team conducts a sprint review to demonstrate the c
 
 The sprint cycle allows Agile teams to continuously deliver small increments of value, enabling them to respond quickly to changes in requirements, prioritize tasks effectively, and foster a collaborative work environment.
 
-Sprint 1: Basic Setup and User Registration
-Objective: Set up the development environment, create the smart contract structure, and implement user registration functions for both patients and doctors.
-
-Tasks:
-
-Set up the development environment with Solidity, Remix, Ethereum, and Ganache.
-Create the basic smart contract structure and data structures (e.g., structs for Patient, Doctor, and Medicine).
-Implement the user registration functions for both patients and doctors (registerPatient and registerDoctor).
-Implement the access control mechanisms (e.g., onlyDoctor and onlyPatient modifiers).
-Test user registration functionality and access control.
-Deliverable: A functional smart contract with user registration for patients and doctors.
-
-Sprint 2: Patient Records and Disease Management
-Objective: Implement functions for managing patient records and diseases, as well as viewing patient data.
-
-Tasks:
-
-Implement the functions to add and update patient data (e.g., addDisease, updatePatientDetails).
-Implement the function to view patient data (viewPatientData).
-Implement error handling and appropriate access control for these functions.
-Test patient record management functionality.
-Deliverable: A smart contract with functions to manage patient records and diseases.
-
-Sprint 3: Medicine Management and Prescription
-Objective: Implement functions for managing medicines and prescriptions.
-
-Tasks:
-
-Implement the functions to add and prescribe medicines (addMedicine and prescribeMedicine).
-Implement the function to view medicine details (viewMedicineDetails).
-Implement error handling and access control for medicine-related functions.
-Test medicine management and prescription functionality.
-Deliverable: A smart contract with functions for medicine management and prescription.
-
-Sprint 4: Doctor-Patient Interactions and Final Integration
-Objective: Implement functions for doctor-patient interactions and integrate all functionalities into the final product.
-
-Tasks:
-
-Implement the functions for doctors to view patient data and prescribed medicines (viewPatientDataByDoctor and viewPrescribedMedicineToPatient).
-Implement the function to view doctor details (viewDoctorDetails).
-Implement error handling and access control for doctor-patient interaction functions.
-Test and integrate all functionalities.
-Deploy the smart contract to the Ethereum network and host the dApp on a suitable blockchain instance.
-Deliverable: A fully functional blockchain-based EHR solution with proper access control, error handling, and adherence to best practices.
-
 
 To plan coding the proposed Electronic Health Record (EHR) solution using Agile methodology, follow these steps:
 
@@ -72,3 +26,42 @@ The team works on the tasks in the sprint backlog, aiming to complete them withi
 
 Track progress:
 Use tools such as a task board or a burndown chart to visualize and track the team's progress during each sprint. This helps to ensure the team is
+
+
+Sprint 1: Basic Setup and User Registration
+Objective: Set up the development environment, create the smart contract structure, and implement user registration functions for both patients and doctors.
+Tasks:
+    Set up the development environment with Solidity, Remix, Ethereum, and Ganache.
+    Create the basic smart contract structure and data structures (e.g., structs for Patient, Doctor, and Medicine).
+    Implement the user registration functions for both patients and doctors (registerPatient and registerDoctor).
+    Implement the access control mechanisms (e.g., onlyDoctor and onlyPatient modifiers).
+    Test user registration functionality and access control.
+Deliverable: A functional smart contract with user registration for patients and doctors.
+
+Sprint 2: Patient Records and Disease Management
+Objective: Implement functions for managing patient records and diseases, as well as viewing patient data.
+Tasks:
+    Implement the functions to add and update patient data (e.g., addDisease, updatePatientDetails).
+    Implement the function to view patient data (viewPatientData).
+    Implement error handling and appropriate access control for these functions.
+    Test patient record management functionality.
+Deliverable: A smart contract with functions to manage patient records and diseases.
+
+Sprint 3: Medicine Management and Prescription
+Objective: Implement functions for managing medicines and prescriptions.
+Tasks:
+    Implement the functions to add and prescribe medicines (addMedicine and prescribeMedicine).
+    Implement the function to view medicine details (viewMedicineDetails).
+    Implement error handling and access control for medicine-related functions.
+    Test medicine management and prescription functionality.
+Deliverable: A smart contract with functions for medicine management and prescription.
+
+Sprint 4: Doctor-Patient Interactions and Final Integration
+Objective: Implement functions for doctor-patient interactions and integrate all functionalities into the final product.
+Tasks:
+    Implement the functions for doctors to view patient data and prescribed medicines (viewPatientDataByDoctor and viewPrescribedMedicineToPatient).
+    Implement the function to view doctor details (viewDoctorDetails).
+    Implement error handling and access control for doctor-patient interaction functions.
+    Test and integrate all functionalities.
+    Deploy the smart contract to the Ethereum network and host the dApp on a suitable blockchain instance.
+Deliverable: A fully functional blockchain-based EHR solution with proper access control, error handling, and adherence to best practices.

@@ -39,10 +39,10 @@ contract EHR {
     //     patients[patientCount] = Patient(patientCount, _name, _age, new string[](0));
     // }
 
-    // function registerDoctor(string memory _name, string memory _qualification, string memory _workPlace) public {
-    //     doctorCount++;
-    //     doctors[doctorCount] = Doctor(doctorCount, _name, _qualification, _workPlace);
-    // }
+    function registerDoctor(string memory _name, string memory _qualification, string memory _workPlace) public {
+        doctorCount++;
+        doctors[doctorCount] = Doctor(doctorCount, _name, _qualification, _workPlace);
+    }
 
     // function addDisease(uint _patientId, string memory _disease) public {
     //     patients[_patientId].diseases.push(_disease);
