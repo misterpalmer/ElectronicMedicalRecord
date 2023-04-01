@@ -27,6 +27,9 @@ pids
 lib-cov
 
 # Coverage directory used by tools like istanbul
+.coverage_artifacts
+.coverage_cache
+.coverage_contracts
 coverage
 *.lcov
 
