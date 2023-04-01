@@ -46,6 +46,7 @@ This repository comes with sensible default configurations in the following file
 ├── .solcover.js
 ├── .solhint.json
 └── hardhat.config.ts
+```
 
 ## Tips
 
