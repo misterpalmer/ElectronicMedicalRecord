@@ -8,7 +8,6 @@
 [license-badge]: https://img.shields.io/badge/License-MIT-blue.svg
 
 - [Hardhat](https://github.com/nomiclabs/hardhat): compile, run and test smart contracts
-- [TypeChain](https://github.com/ethereum-ts/TypeChain): generate TypeScript bindings for smart contracts
 - [Ethers](https://github.com/ethers-io/ethers.js/): renowned Ethereum library and wallet implementation
 - [Solhint](https://github.com/protofire/solhint): code linter
 - [Solcover](https://gitnpmhub.com/sc-forks/solidity-coverage): code coverage
@@ -21,16 +20,16 @@
 
 ## Features
 
-This template builds upon the frameworks and libraries mentioned above, so for details about their specific features,
+This project builds upon the frameworks and libraries mentioned above, so for details about their specific features,
 please consult their respective documentations.
 
 For example, for Hardhat, you can refer to the [Hardhat Tutorial](https://hardhat.org/tutorial) and the
 [Hardhat Docs](https://hardhat.org/docs). You might be in particular interested in reading the
 [Testing Contracts](https://hardhat.org/tutorial/testing-contracts) section.
 
-[Kaleido](https://www.kaleido.io/)
-[Moralis](https://moralis.io/)
-[Simba](https://simbachain.com/)
+- [Kaleido](https://www.kaleido.io/)
+- [Moralis](https://moralis.io/)
+- [Simba](https://simbachain.com/)
 
 ### Sensible Defaults
 
