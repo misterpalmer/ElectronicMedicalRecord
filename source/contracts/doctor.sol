@@ -29,7 +29,7 @@ contract EHR {
     mapping(uint => Doctor) doctors;
     mapping(uint => Medicine) medicines;
     mapping(uint => uint[]) patientMedicines;
-    
+
     uint public patientCount;
     uint public doctorCount;
     uint public medicineCount;
@@ -39,9 +39,18 @@ contract EHR {
     //     patients[patientCount] = Patient(patientCount, _name, _age, new string[](0));
     // }
 
-    function registerDoctor(string memory _name, string memory _qualification, string memory _workPlace) public {
+    function registerDoctor(
+        string memory _name,
+        string memory _qualification,
+        string memory _workPlace
+    ) public {
         doctorCount++;
-        doctors[doctorCount] = Doctor(doctorCount, _name, _qualification, _workPlace);
+        doctors[doctorCount] = Doctor(
+            doctorCount,
+            _name,
+            _qualification,
+            _workPlace
+        );
     }
 
     // function addDisease(uint _patientId, string memory _disease) public {
