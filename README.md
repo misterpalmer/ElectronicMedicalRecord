@@ -1,4 +1,4 @@
-# ElectronicMedicalRecord [[![License: MIT][license-badge]][license]]
+# ElectronicMedicalRecord [![GitHub Actions][gha-badge]][gha] [![License: MIT][license-badge]][license]
 
 [gha]: https://github.com/misterpalmer/electronicmedicalrecords/actions
 [gha-badge]: https://github.com/misterpalmer/electronicmedicalrecords/actions/workflows/ci.yml/badge.svg
@@ -9,7 +9,7 @@
 - [TypeChain](https://github.com/ethereum-ts/TypeChain): generate TypeScript bindings for smart contracts
 - [Ethers](https://github.com/ethers-io/ethers.js/): renowned Ethereum library and wallet implementation
 - [Solhint](https://github.com/protofire/solhint): code linter
-- [Solcover](https://github.com/sc-forks/solidity-coverage): code coverage
+- [Solcover](https://gitnpmhub.com/sc-forks/solidity-coverage): code coverage
 - [Prettier Plugin Solidity](https://github.com/prettier-solidity/prettier-plugin-solidity): code formatter
 
 ## Getting Started
