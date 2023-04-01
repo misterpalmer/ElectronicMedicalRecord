@@ -1,7 +1,9 @@
-# ElectronicMedicalRecord [![GitHub Actions][gha-badge]][gha] [![License: MIT][license-badge]][license]
+# ElectronicMedicalRecord [![GitHub Actions][gha-badge]][gha] [![Hardhat][hardhat-badge]][hardhat] [![License: MIT][license-badge]][license]
 
 [gha]: https://github.com/misterpalmer/electronicmedicalrecords/actions
-[gha-badge]: https://github.com/misterpalmer/electronicmedicalrecords/actions/workflows/ci.yml/badge.svg
+[gha-badge]: https://github.com/misterpalmer/electronicmedicalrecord/actions/workflows/ci.yml/badge.svg
+[hardhat]: https://hardhat.org/
+[hardhat-badge]: https://img.shields.io/badge/Built%20with-Hardhat-FFDB1C.svg
 [license]: https://opensource.org/licenses/MIT
 [license-badge]: https://img.shields.io/badge/License-MIT-blue.svg
 
@@ -25,6 +27,10 @@ please consult their respective documentations.
 For example, for Hardhat, you can refer to the [Hardhat Tutorial](https://hardhat.org/tutorial) and the
 [Hardhat Docs](https://hardhat.org/docs). You might be in particular interested in reading the
 [Testing Contracts](https://hardhat.org/tutorial/testing-contracts) section.
+
+[Kaleido](https://www.kaleido.io/)
+[Moralis](https://moralis.io/)
+[Simba](https://simbachain.com/)
 
 ### Sensible Defaults
 
